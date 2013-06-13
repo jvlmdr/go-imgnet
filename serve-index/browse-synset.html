@@ -1,0 +1,11 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <ul>
+      {{range $x, $_ := $.Images}}
+			<li><a href="{{$x}}">{{$x}}</a></li>
+      {{end}}
+    </ul>
+  </body>
+</html>
